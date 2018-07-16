@@ -1,0 +1,115 @@
+/*https://color.adobe.com/Limekiln-color-theme-10972160/*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    font-size: 0.75rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    background-color: #8Ab833;
+}
+
+header h1 {
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+
+img {
+    background-size: contain;
+    width: 100%;
+}
+
+.tagline h1 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-top: 5rem;
+}
+
+nav {
+    background-color: #008A6E#549E39;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #ffffff;
+    margin-left: 1rem;
+}
+
+nav li a:hover {
+    color: #000000;
+}
+
+.btns {
+    float: left;
+    display: inline;
+}
+
+.fas {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #8Ab833;
+}
+
+.fab {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+
+footer {
+    background-color: #8Ab833;
+}
+
+footer ul li {
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+}
+
+#active-btn {
+    border-bottom: 4px solid cornflowerblue;
+}
+
+
+@media only screen and (min-width: 30rem) {
+    
+    .container {
+        margin: 2rem auto;
+    }
+    
+    body {
+        font-size: 1rem;
+    }
+    
+    .js-content figure {
+        width: 25%;
+        float: left;
+        margin: 0 1.5rem 1rem 0;
+    }
+    
+    .fas {
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        color: #8Ab833;
+    }
+
+}
+
+
+
+
+
+
